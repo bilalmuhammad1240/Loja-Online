@@ -1,0 +1,162 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #3c575e;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+#banner {
+  background-image: url('https://cdn.shopify.com/s/files/1/1520/4366/t/84/assets/6d88391096fc--SATECHI-Instagram-2019-03-01-IMG1-035ead_1280x.jpg?v=1592952075');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 200px;
+}
+
+#banner h2 {
+  font-size: 3em;
+  color: #02e04f;
+}
+
+p {
+  font-size: 1.5em;
+  color: 0f096f;
+}
+
+#banner button {
+  background-color: #fed000;
+  color: #fff;
+  font-size: 1.5em;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilos da seção "Produtos em Destaque" */
+#destaques-semana {
+     text-align: center;
+}
+#produtos {
+background-color: #f5f5f5;
+padding: 500px 0;
+}
+ 
+.div-principal-max {
+    background-color: #fed00;
+    margin: 100px 0 100px 0;
+}
+
+.div-principal div img {
+    width: 285px;
+    height: 250px;
+    object-fit: cover; 
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: inline;
+    margin-right: 2%;
+    /*margin-bottom: 20px;*/
+}
+
+.div-principal {
+    display: flex;
+    width: 100%;
+}
+
+.div-principal div { 
+ padding-left: 50px;
+}
+
+.div-principal div span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f80;
+}
+
+.produto h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.produto p {
+  font-size: 1.2em;
+  line-height: 1.4;
+  margin-top: 10px;
+  color: #555;
+}
+
+.produto button {
+background-color: #f00;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 1.2em;
+cursor: pointer;
+display: block;
+margin: 0 auto;
+/*margin-bottom: 20px;*/
+}
+
+/* Estilos do rodapé */
+footer {
+background-color: #333;
+color: #fff;
+padding: 50px;
+text-align: center;
+}
+
+footer p {
+font-size: 1.2em;
+}
+
+#redes-sociais {
+margin-top: 20px;
+}
+
+#redes-sociais a {
+color: #fff;
+margin-right: 10px;
+}
+
+#redes-sociais a:hover {
+    text-decoration: underline;
+}
+
